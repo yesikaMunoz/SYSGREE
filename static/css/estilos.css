@@ -1,0 +1,85 @@
+body {
+	background-image: url('../img/imge/fondologin.jpg');
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%
+}
+
+.logo-container {
+	display: flex;
+	justify-content: center;
+	/* Centra horizontalmente */
+	align-items: center;
+	/* Centra verticalmente */
+	height: 25vh;
+	/* Establece la altura del contenedor al 100% del alto de la ventana */
+}
+
+.logo {
+	height: 150px;
+	width: 150px;
+}
+
+/* Estilos básicos para hacer que la tabla sea receptiva */
+table {
+	width: 80%;
+	border-collapse: collapse;
+	margin: auto;
+	white-space: nowrap;
+	/* Evita el desbordamiento de texto */
+	overflow-x: auto;
+	/* Agrega una barra de desplazamiento horizontal cuando sea necesario */
+}
+
+tr {
+	background-color: #fff;
+}
+
+tbody tr:hover {
+	background-color: #a2b4d6;
+	/* Cambia el color de fondo cuando pasa el cursor */
+}
+
+th,
+td {
+	padding: 12px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+th {
+	color: #fff;
+	background-color: #4b5785;
+}
+
+/* Estilos para los botones */
+.btn-container {
+	text-align: center;
+}
+
+.btn-update,
+.btn-delete,
+.boton,
+.boton-rojo {
+	padding: 5px 10px;
+	background-color: #007bff;
+	color: #ffffff;
+	border: none;
+	cursor: pointer;
+	margin-right: 5px;
+	font-family: Arial, sans-serif;
+	/* Cambia la fuente del texto en los botones */
+	text-decoration: none;
+	/* Elimina subrayado en los enlaces */
+	display: inline-block;
+	/* Hacer que los enlaces se muestren en línea */
+}
+
+.btn-delete,
+.boton-rojo {
+	background-color: #dc3545;
+}
